@@ -223,59 +223,54 @@
     .global-content p { font-size: 1.1rem; color: var(--p-color); margin-bottom: 2rem; }
 
 /* --- WHATSAPP --- */
+/* Floating WhatsApp Button */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 30px;
+  box-shadow: 0 0 10px #25D366, 0 0 20px #25D366;
+  animation: jump 1s infinite, glow 2s infinite alternate;
+  z-index: 9999;
+  cursor: pointer;
+}
 
-      /* Floating WhatsApp Button */
-    .whatsapp-btn {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      font-size: 30px;
-      box-shadow: 0 0 10px #25D366, 0 0 20px #25D366;
-      animation: jump 1s infinite, glow 2s infinite alternate;
-      z-index: 9999;
-      cursor: pointer;
-    }
-    
-    /* Jump Animation */
-    @keyframes jump {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
-    
-    /* Glow Animation */
-    @keyframes glow {
-      0% { box-shadow: 0 0 10px #25D366, 0 0 20px #25D366; }
-      100% { box-shadow: 0 0 20px #25D366, 0 0 40px #25D366; }
-    }
-    
-    /* Tooltip/Title */
-    .whatsapp-btn::after {
-      content: "Chat with me on WhatsApp";
-      position: absolute;
-      left: 70px;
-      background: #25D366;
-      color: white;
-      padding: 5px 10px;
-      border-radius: 5px;
-      opacity: 0;
-      white-space: nowrap;
-      pointer-events: none;
-      transition: opacity 0.3s;
-      font-size: 14px;
-    }
-    
-    .whatsapp-btn:hover::after {
-      opacity: 1;
-    }
+/* Jump Animation */
+@keyframes jump {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Glow Animation */
+@keyframes glow {
+  0% { box-shadow: 0 0 10px #25D366, 0 0 20px #25D366; }
+  100% { box-shadow: 0 0 20px #25D366, 0 0 40px #25D366; }
+}
+
+/* AI Clone Tooltip - always visible */
+.whatsapp-btn::after {
+  content: "Hi! I'm Anas AI clone. Ask me so I can see if I can help you fix your problem with my skills.";
+  position: absolute;
+  left: 70px; /* next to button */
+  bottom: 50%; /* vertically aligned */
+  transform: translateY(50%);
+  background: #25D366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  white-space: nowrap;
+  font-size: 14px;
+  box-shadow: 0 0 10px #25D366, 0 0 20px #25D366;
+}
 
     
     .map-container {
