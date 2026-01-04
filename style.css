@@ -256,9 +256,8 @@
   padding: 15px 20px;       /* more padding */
   border-radius: 15px;       /* rounder corners */
   white-space: normal;
-  font-size: 14px;           /* slightly bigger */
-  max-width: 350px;          /* wider box */
-  min-width: 200px;          /* avoid being too small */
+  font-size: 13px;           /* slightly bigger */
+  max-width: 200px;          /* wider box */
   line-height: 1.6;          /* more spacing */
   text-align: center;
   box-shadow: 0 0 15px #25D366, 0 0 25px #25D366;
