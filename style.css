@@ -256,7 +256,7 @@
   border-radius: 10px;
   white-space: normal; /* allow wrapping */
   font-size: 12px; /* smaller text */
-  max-width: 200px; /* limit width */
+  max-width: 400px; /* limit width */
   line-height: 1.4;
   box-shadow: 0 0 10px #25D366, 0 0 20px #25D366;
   text-align: center;
