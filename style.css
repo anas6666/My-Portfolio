@@ -171,13 +171,14 @@
         border: 1px solid var(--glass-border);
     }
 
+
     .portfolio-video {
         width: 100%;
-        height: auto;
-        border-radius: 12px; /* Slightly smaller radius for the video itself */
+        aspect-ratio: 16 / 9; 
+        border-radius: 12px;
         display: block;
-        background: black; /* Prevents white flash before loading */
-        cursor: pointer;
+        background: black;
+        border: none; /* Remove default iframe border */
     }
 
     /* Glow effect behind the video */
