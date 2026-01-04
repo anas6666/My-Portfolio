@@ -260,7 +260,7 @@
   border-radius: 10px;
   
   /* FIX: Make it wider to force 2 lines */
-  width: 260px;  
+  width: 200px;  
   white-space: normal; 
   font-size: 13px;
   line-height: 1.4;
