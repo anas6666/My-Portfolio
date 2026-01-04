@@ -244,24 +244,27 @@
 }
 
 /* Tooltip - always visible above button */
+/* WhatsApp Button Tooltip - bigger box */
 .whatsapp-btn::after {
   content: "Talk to my AI Assistant. See if I can help you fix your problem.";
   position: absolute;
-  bottom: 70px; /* above button */
-  right: 50%;    /* center horizontally relative to button */
+  bottom: 80px; /* above button */
+  right: 50%;    /* center relative to button */
   transform: translateX(50%);
   background: #25D366;
   color: white;
-  padding: 8px 12px;
-  border-radius: 10px;
-  white-space: normal; /* allow wrapping */
-  font-size: 13px; /* smaller text */
-  max-width: 300px; /* limit width */
-  min-width: 180px;
-  line-height: 1.4;
-  box-shadow: 0 0 10px #25D366, 0 0 20px #25D366;
+  padding: 15px 20px;       /* more padding */
+  border-radius: 15px;       /* rounder corners */
+  white-space: normal;
+  font-size: 14px;           /* slightly bigger */
+  max-width: 350px;          /* wider box */
+  min-width: 220px;          /* avoid being too small */
+  line-height: 1.6;          /* more spacing */
   text-align: center;
+  box-shadow: 0 0 15px #25D366, 0 0 25px #25D366;
+  word-wrap: break-word;
 }
+
 
 /* Jump & Glow Animations */
 @keyframes jump {
