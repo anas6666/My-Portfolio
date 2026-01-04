@@ -223,10 +223,11 @@
     .global-content p { font-size: 1.1rem; color: var(--p-color); margin-bottom: 2rem; }
 
 /* WhatsApp Button - bottom-right */
+/* WhatsApp Button - bottom-right */
 .whatsapp-btn {
   position: fixed;
-  bottom: 20px;
-  right: 20px; /* move to right */
+  bottom: 40px; /* Increased from 20px to move up */
+  right: 40px;  /* Increased from 20px to move away from edge */
   background-color: #25D366;
   color: white;
   border-radius: 50%;
@@ -244,26 +245,28 @@
 }
 
 /* Tooltip - always visible above button */
-/* WhatsApp Button Tooltip - bigger box */
 .whatsapp-btn::after {
   content: "Talk to my AI Assistant! See how I can help you fix your problem.";
   position: absolute;
-  bottom: 80px; /* above button */
-  right: 20px;    /* center relative to button */
-  transform: translateX(50%);
+  bottom: 75px;   /* Position above the button */
+  
+  /* FIX: Align to the right edge of the button so it grows to the left */
+  right: -10px;    
+  /* Removed 'transform: translateX(50%)' because it pushes text off screen */
+  
   background: #25D366;
   color: white;
-  padding: 15px 20px;       /* more padding */
-  border-radius: 15px;       /* rounder corners */
-  white-space: normal;
-  font-size: 13px;           /* slightly bigger */
-  max-width: 200px;          /* wider box */
-  line-height: 1.6;          /* more spacing */
+  padding: 12px 15px;
+  border-radius: 10px;
+  
+  /* FIX: Make it wider to force 2 lines */
+  width: 260px;  
+  white-space: normal; 
+  font-size: 13px;
+  line-height: 1.4;
   text-align: center;
   box-shadow: 0 0 15px #25D366, 0 0 25px #25D366;
-  word-wrap: break-word;
 }
-
 
 /* Jump & Glow Animations */
 @keyframes jump {
