@@ -197,15 +197,22 @@
 }
 
 .logo-track img {
-    height: 35px; /* Slightly smaller to look cleaner */
-    width: auto;
-    margin: 0 40px; /* Space between logos */
+    /* Set a fixed height and a max-width to keep them uniform */
+    height: 35px; 
+    width: 100px; /* Forces a standard width */
+    object-fit: contain; 
+    
+    margin: 0 30px; 
     filter: grayscale(100%) brightness(0.8);
     opacity: 0.6;
     transition: all 0.3s ease;
 }
 
-/* Color comes back on hover */
+[data-theme="dark"] .logo-track img {
+    /* Makes logos easier to see on dark backgrounds */
+    filter: grayscale(100%) brightness(1.5); 
+}
+
 .logo-track img:hover {
     filter: grayscale(0%) brightness(1);
     opacity: 1;
