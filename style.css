@@ -159,8 +159,8 @@
 .logo-slider {
     overflow: hidden;
     padding: 30px 0;
-    /* Uses your portfolio's surface color */
-    background: var(--surface-color); 
+    /* Forces the background to always be white */
+    background: #ffffff; 
     white-space: nowrap;
     position: relative;
     border-top: var(--glass-border);
@@ -168,7 +168,7 @@
     margin: 2rem 0;
 }
 
-/* Gradient Fades for the edges */
+/* Gradient Fades for the edges (Forced to white to match the background) */
 .logo-slider::before,
 .logo-slider::after {
     content: "";
@@ -181,12 +181,12 @@
 
 .logo-slider::before {
     left: 0;
-    background: linear-gradient(to right, var(--bg-color), transparent);
+    background: linear-gradient(to right, #ffffff, transparent);
 }
 
 .logo-slider::after {
     right: 0;
-    background: linear-gradient(to left, var(--bg-color), transparent);
+    background: linear-gradient(to left, #ffffff, transparent);
 }
 
 .logo-track {
@@ -201,15 +201,14 @@
     height: 35px; 
     width: 100px; /* Forces a standard width */
     object-fit: contain; 
-    
     margin: 0 30px; 
-    opacity: 0.6;
+    opacity: 0.8; /* Slightly increased base opacity since colors are kept */
     transition: all 0.3s ease;
 }
 
+/* OVERRIDE: Prevent logos from changing color in dark mode */
 [data-theme="dark"] .logo-track img {
-    /* Makes logos easier to see on dark backgrounds */
-    filter: grayscale(100%) brightness(1.5); 
+    filter: none; 
 }
 
 .logo-track img:hover {
@@ -226,6 +225,7 @@
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
 }
+
 
 /* --- VIDEO SECTION STYLING --- */
     #video-demo {
