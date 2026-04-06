@@ -317,42 +317,7 @@
   cursor: pointer;
 }
 
-/* Tooltip - always visible above button */
-.whatsapp-btn::after {
-  content: "See how I can help fix your problem using DATA and AI";
-  position: absolute;
-  bottom: 75px;   /* Position above the button */
-  
-  /* FIX: Align to the right edge of the button so it grows to the left */
-  right: -10px;    
-  /* Removed 'transform: translateX(50%)' because it pushes text off screen */
-  
-  background: #25D366;
-  color: white;
-  padding: 12px 15px;
-  border-radius: 10px;
-  
-  /* FIX: Make it wider to force 2 lines */
-  width: 200px;  
-  white-space: normal; 
-  font-size: 13px;
-  line-height: 1.4;
-  text-align: center;
-  box-shadow: 0 0 15px #25D366, 0 0 25px #25D366;
-}
 
-/* Jump & Glow Animations */
-@keyframes jump {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-
-
-
-@keyframes glow {
-  0% { box-shadow: 0 0 10px #25D366, 0 0 20px #25D366; }
-  100% { box-shadow: 0 0 20px #25D366, 0 0 40px #25D366; }
-}
 
     
     .map-container {
