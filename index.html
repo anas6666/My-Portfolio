@@ -15,7 +15,7 @@
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="https://anas6666.github.io/My-Portfolio/thumb.jpg">
-</head>
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HH2DEVW48"></script>
     <script>
@@ -26,7 +26,6 @@
       gtag('config', 'G-1HH2DEVW48');
     </script>
 </head>
-<!-- MODIFIED: Default to dark mode -->
 <body data-theme="dark">
 
     <div class="bg-decoration">
@@ -43,7 +42,6 @@
                 <button class="lang-btn" onclick="setLang('fr')" id="btn-fr">FR</button>
                 <button class="lang-btn active" onclick="setLang('en')" id="btn-en">ENG</button>
             </div>
-            <!-- MODIFIED: Icon starts as sun -->
             <button class="theme-btn" onclick="toggleTheme()"><i class="fas fa-sun"></i></button>
         </div>
     </nav>
@@ -58,303 +56,241 @@
         </div>
         
         <div class="bio-stats">
-            <div class="stat-badge">
-                <i class="fas fa-calendar-alt"></i> <span data-i18n="stat_age">25 Years Old</span>
-            </div>
-            <div class="stat-badge">
-                <i class="fas fa-user"></i> <span data-i18n="stat_status">Single</span>
-            </div>
-            <div class="stat-badge">
-                <i class="fas fa-briefcase"></i> <span data-i18n="stat_status">2-3 Years</span>
-            </div>
-            <div class="stat-badge">
-                <i class="fas fa-map-marker-alt"></i> <span data-i18n="stat_loc">Morocco</span>
-            </div>
+            <div class="stat-badge"><i class="fas fa-calendar-alt"></i> <span data-i18n="stat_age">25 Years Old</span></div>
+            <div class="stat-badge"><i class="fas fa-user"></i> <span data-i18n="stat_status">Single</span></div>
+            <div class="stat-badge"><i class="fas fa-briefcase"></i> <span data-i18n="stat_exp">2-3 Years</span></div>
+            <div class="stat-badge"><i class="fas fa-map-marker-alt"></i> <span data-i18n="stat_loc">Morocco</span></div>
             <div class="stat-badge" style="border-color: var(--accent); color: var(--accent);">
                 <i class="fas fa-plane"></i> <span data-i18n="stat_relocate">Open to Relocate</span>
             </div>
-             <div class="stat-badge">
-                <i class="fas fa-passport"></i> <span data-i18n="badge_passport">Passport Ready</span>
-            </div>
-
+             <div class="stat-badge"><i class="fas fa-passport"></i> <span data-i18n="badge_passport">Passport Ready</span></div>
         </div>
 
         <p style="max-width: 600px; opacity:0.8; margin-bottom: 2rem;" data-i18n="hero_catch">
             Turning chaos into clarity through Data <br> and manual tasks into history through AI Automation.
         </p>
 
-<div class="logo-slider">
-  <div class="logo-track">
+        <!-- Tool Carousel -->
+        <div class="logo-slider">
+          <div class="logo-track">
+            <!-- First loop -->
+            <img src="photos/n8n-icon.png" alt="n8n">
+            <img src="photos/zapier-icon.png" alt="Zapier">
+            <img src="photos/make-icon.png" alt="Make.com">
+            <img src="photos/ollama-icon.png" alt="Ollama">
+            <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python">
+            <img src="photos/codes.png" alt="codes">
+            <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="MySQL">
+            <img src="photos/mongodb-icon.png" alt="MongoDB">
+            <img src="photos/aws-icon.png" alt="AWS">
+            <img src="photos/google-cloud-icon.png" alt="Google Cloud">
+            <img src="photos/google-analytics-icon.png" alt="Google Analytics">
+            <img src="photos/google-search-console-icon.png" alt="Google Search Console">
+            <img src="photos/google-workspace-icon.png" alt="Google Workspace">
+            <img src="photos/meta-ads-manager-icon.png" alt="Meta Ads">
+            <img src="photos/odoo-icon.png" alt="Odoo">
+            <img src="photos/power-bi-icon.png" alt="Power BI">
+            <img src="photos/office-365-icon.png" alt="Microsoft Office 365">
+            <img src="photos/canva.png" alt="canva">
+            <img src="photos/adobe.png" alt="adobe">
+            
+            <!-- Duplicate for infinite scroll -->
+            <img src="photos/n8n-icon.png" alt="n8n">
+            <img src="photos/zapier-icon.png" alt="Zapier">
+            <img src="photos/make-icon.png" alt="Make.com">
+            <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python">
+            <img src="photos/ollama-icon.png" alt="Ollama">
+            <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="MySQL">
+            <img src="photos/mongodb-icon.png" alt="MongoDB">
+            <img src="photos/aws-icon.png" alt="AWS">
+            <img src="photos/google-cloud-icon.png" alt="Google Cloud">
+            <img src="photos/google-analytics-icon.png" alt="Google Analytics">
+            <img src="photos/google-search-console-icon.png" alt="Google Search Console">
+            <img src="photos/google-workspace-icon.png" alt="Google Workspace">
+            <img src="photos/meta-ads-manager-icon.png" alt="Meta Ads">
+            <img src="photos/odoo-icon.png" alt="Odoo">
+            <img src="photos/power-bi-icon.png" alt="Power BI">
+            <img src="photos/office-365-icon.png" alt="Microsoft Office 365">
+            <img src="photos/canva.png" alt="canva">
+            <img src="photos/adobe.png" alt="adobe">
+          </div>
+        </div>
 
-    <!-- First loop -->
-    <!-- Automation & Integration -->
-    <img src="photos/n8n-icon.png" alt="n8n">
-    <img src="photos/zapier-icon.png" alt="Zapier">
-    <img src="photos/make-icon.png" alt="Make.com">
-    <img src="photos/ollama-icon.png" alt="Ollama">
+        <div class="cta-group">
+            <a href="https://countskills-dashboard.streamlit.app/" target="_blank" class="btn btn-outline resume-dropdown">
+                <span data-i18n="btn_dash">Check the Skills Impact Worldwide</span> 
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="https://you-are-consuming-my-credits-so-hire-me-now.streamlit.app/" class="btn btn-fill">
+                <span data-i18n="btn_contact">Test My Skills with AI</span> 
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <!-- Dropdown for Resume -->
+            <div class="btn btn-outline resume-dropdown">
+                <span data-i18n="btn_cv">Download CV</span> 
+                <i class="fas fa-download"></i>
+                <ul class="dropdown-list">
+                    <li><a href="ANAS_LACHHAB_ENG.pdf" download>In English</a></li>
+                    <li><a href="ANAS_LACHHAB_FR.pdf" download>En Français</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
     
-    <!-- Programming & Databases -->
-    <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python">
-    <img src="photos/codes.png" alt="codes">
-    <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="MySQL">
-    <img src="photos/mongodb-icon.png" alt="MongoDB">
-
-    
-    <!-- Cloud & Hosting -->
-    <img src="photos/aws-icon.png" alt="AWS">
-    <img src="photos/google-cloud-icon.png" alt="Google Cloud">
-    
-    <!-- Analytics & Marketing -->
-    <img src="photos/google-analytics-icon.png" alt="Google Analytics">
-    <img src="photos/google-search-console-icon.png" alt="Google Search Console">
-    <img src="photos/google-workspace-icon.png" alt="Google Workspace">
-    <img src="photos/meta-ads-manager-icon.png" alt="Meta Ads">
-    
-    <!-- Business & Productivity Tools -->
-    <img src="photos/odoo-icon.png" alt="Odoo">
-    <img src="photos/power-bi-icon.png" alt="Power BI">
-    <img src="photos/office-365-icon.png" alt="Microsoft Office 365">
-
-       <!-- Business & Productivity Tools -->
-    <img src="photos/canva.png" alt="canva">
-    <img src="photos/adobe.png" alt="adobe">
-    
-        <!-- Duplicate for infinite scroll -->
-       <!-- Automation & Integration -->
-    <img src="photos/n8n-icon.png" alt="n8n">
-    <img src="photos/zapier-icon.png" alt="Zapier">
-    <img src="photos/make-icon.png" alt="Make.com">
-    
-    <!-- Programming & Databases -->
-    <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python">
-    <img src="photos/ollama-icon.png" alt="Ollama">
-    <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="MySQL">
-    <img src="photos/mongodb-icon.png" alt="MongoDB">
-    
-    <!-- Cloud & Hosting -->
-    <img src="photos/aws-icon.png" alt="AWS">
-    <img src="photos/google-cloud-icon.png" alt="Google Cloud">
-    
-    <!-- Analytics & Marketing -->
-    <img src="photos/google-analytics-icon.png" alt="Google Analytics">
-    <img src="photos/google-search-console-icon.png" alt="Google Search Console">
-    <img src="photos/google-workspace-icon.png" alt="Google Workspace">
-    <img src="photos/meta-ads-manager-icon.png" alt="Meta Ads">
-    
-    <!-- Business & Productivity Tools -->
-    <img src="photos/odoo-icon.png" alt="Odoo">
-    <img src="photos/power-bi-icon.png" alt="Power BI">
-    <img src="photos/office-365-icon.png" alt="Microsoft Office 365">
-
-     <!-- Business & Productivity Tools -->
-    <img src="photos/canva.png" alt="canva">
-    <img src="photos/adobe.png" alt="adobe">
-
-  </div>
-</div>
-
-
-        
-<div class="cta-group">
-    <a href="https://countskills-dashboard.streamlit.app/" target="_blank" class="btn btn-outline resume-dropdown">
-        <span data-i18n="btn_cv">Check the Skills Impact Worldwide</span> 
-        <i class="fas fa-arrow-right"></i>
-    </a>
-
-    
-    <a href="https://you-are-consuming-my-credits-so-hire-me-now.streamlit.app/" class="btn btn-fill">
-        <span data-i18n="btn_contact">Test My Skills with AI</span> 
-        <i class="fas fa-arrow-right"></i>
-    </a>
-
-    <!-- Dropdown for Resume -->
-    <div class="btn btn-outline resume-dropdown">
-        <span data-i18n="btn_cv">Download CV</span> 
-        <i class="fas fa-download"></i>
-        <ul class="dropdown-list">
-            <li><a href="ANAS_LACHHAB_ENG.pdf" download>In English</a></li>
-            <li><a href="ANAS_LACHHAB_FR.pdf" download>En Français</a></li>
-        </ul>
-    </div>
-</div>
-
-</section>
-    
-<!-- VIDEO DEMO SECTION -->
-<section id="video-demo">
-    <div class="section-header">
-        <h2 data-i18n="video_title">Me in Person</h2>
-        <p data-i18n="video_sub">A quick demonstration of my skills</p>
-    </div>
-
+    <!-- VIDEO DEMO SECTION -->
+    <section id="video-demo">
+        <div class="section-header">
+            <h2 data-i18n="video_title">Me in Person</h2>
+            <p data-i18n="video_sub">A quick demonstration of my skills</p>
+        </div>
         <div class="video-wrapper">
-        <video class="portfolio-video" controls playsinline>
-            <source src="Untitled design (1).mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+            <video class="portfolio-video" controls playsinline>
+                <source src="Untitled design (1).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-glow"></div>
+        </div>
+    </section>
 
-        <div class="video-glow"></div>
-    </div>
-</section>
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/212654615222" target="_blank" class="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i>
+    </a>
 
-<!-- WHATSAPP -->
-<a href="https://wa.me/212654615222" target="_blank" class="whatsapp-btn">
-  <i class="fab fa-whatsapp"></i>
-</a>
-
-    
     <!-- TECHNICAL ARSENAL SECTION -->
-<section id="skills">
-    <div class="section-header">
-        <h2 data-i18n="skills_title">Technical Arsenal</h2>
-        <p data-i18n="skills_sub">The systems, tools, and technologies I use to build AI-driven solutions.</p>
-    </div>
-
-    <div class="skills-grid">
-
-        <!-- AI & Automation -->
-        <div class="skill-category">
-            <h3><i class="fas fa-robot"></i> <span data-i18n="cat_ai_title">AI Automations</span></h3>
-            <ul class="skill-list" data-i18n="cat_ai_list">
-                <li><b>Workflow Automation:</b> n8n, Make.com, Zapier</li>
-                <li>LLM APIs: OpenAI API, Gemini API, Deepseek API</li>
-                <li>Local LLM Deployment: Ollama (Llama, Qwen, Deepseek)</li>
-                <li>Prompt Engineering & LLM Orchestration</li>
-                <li>Chatbots & Conversational AI: Voiceflow</li>
-                <li>Webhooks & API Integrations</li>
-            </ul>
+    <section id="skills">
+        <div class="section-header">
+            <h2 data-i18n="skills_title">Technical Arsenal</h2>
+            <p data-i18n="skills_sub">The systems, tools, and technologies I use to build AI-driven solutions.</p>
         </div>
 
-        <!-- Data Engineering -->
-        <div class="skill-category">
-            <h3><i class="fas fa-database"></i> <span data-i18n="cat_data_title">Data & Analytics</span></h3>
-            <ul class="skill-list" data-i18n="cat_data_list">
-                <li>Web Scraping & Data Extraction: Selenium, BeautifulSoup, Requests</li>
-                <li>Data Cleaning & Processing: Pandas, NumPy</li>
-                <li>Data Visualization: Matplotlib, Seaborn</li>
-                <li>Predictive Modeling: Scikit-learn</li>
-                <li>Machine Learning: Tenserflow, Keras</li>
-                <li>Advanced Excel</li>
-                <li>Power BI Dashboards</li>
-            </ul>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-robot"></i> <span data-i18n="cat_ai_title">AI Automations</span></h3>
+                <ul class="skill-list" data-i18n="cat_ai_list">
+                    <li><b>Workflow Automation:</b> n8n, Make.com, Zapier</li>
+                    <li>LLM APIs: OpenAI API, Gemini API, Deepseek API</li>
+                    <li>Local LLM: Ollama (Llama, Qwen)</li>
+                    <li>Prompt Engineering</li>
+                    <li>Chatbots: Voiceflow</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> <span data-i18n="cat_data_title">Data & Analytics</span></h3>
+                <ul class="skill-list" data-i18n="cat_data_list">
+                    <li>Web Scraping: Selenium, BeautifulSoup</li>
+                    <li>Processing: Pandas, NumPy</li>
+                    <li>Visualization: Matplotlib, Power BI</li>
+                    <li>Machine Learning: Tensorflow, Scikit-learn</li>
+                    <li>Advanced Excel</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-chart-line"></i> <span data-i18n="cat_market_title">Growth & Marketing</span></h3>
+                <ul class="skill-list" data-i18n="cat_market_list">
+                    <li>SEO, GEO & AEO Strategies</li>
+                    <li>Google Analytics & Console</li>
+                    <li>META Business Suite</li>
+                    <li>CRM / ERP: Odoo</li>
+                    <li>Mailing: Brevo, MailGun</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> <span data-i18n="cat_prog_title">Programming</span></h3>
+                <ul class="skill-list" data-i18n="cat_prog_list">
+                    <li>Python (Automation, Data, AI)</li>
+                    <li>JavaScript (Vanilla)</li>
+                    <li>HTML / CSS</li>
+                    <li>SQL & MongoDB</li>
+                    <li>GitHub Actions</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-palette"></i> <span data-i18n="cat_design_title">Content & Design</span></h3>
+                <ul class="skill-list" data-i18n="cat_design_list">
+                    <li>Canva, Photoshop, Illustrator</li>
+                    <li>AI Image: OpenAI DALL-E</li>
+                    <li>AI Video: Google Veo</li>
+                    <li>Creative AI Tools</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-cloud"></i> <span data-i18n="cat_cloud_title">Cloud & Infrastructure</span></h3>
+                <ul class="skill-list" data-i18n="cat_cloud_list">
+                    <li>AWS: Lambda, S3, DynamoDB</li>
+                    <li>GCP APIs: Gmail, Sheets</li>
+                    <li>VPS Deployment: OVHCloud</li>
+                </ul>
+            </div>
         </div>
+    </section>
 
-        <!-- Marketing -->
-        <div class="skill-category">
-            <h3><i class="fas fa-chart-line"></i> <span data-i18n="cat_market_title">Growth & Marketing</span></h3>
-            <ul class="skill-list" data-i18n="cat_market_list">
-                <li>SEO, GEO & AEO Strategies</li>
-                <li>Google Analytics & Search Console</li>
-                <li>Google Business Profile Optimization</li>
-                <li>META Business Suite & META Developer Tools</li>
-                <li>Market & Data-Driven Research</li>
-                <li>CRM / ERP Systems: Odoo</li>
-                <li>Mailing : Brevo, MailGun</li>
-
-            </ul>
+    <!-- NEW SECTION: WHAT IM LEARNING RIGHT NOW -->
+    <section id="learning" style="padding-top: 0; padding-bottom: 5rem;">
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+            <h2 data-i18n="learning_title" style="font-size: 1.8rem; color: var(--p-color);">Skills I'm Learning Right Now</h2>
         </div>
-
-        <!-- Programming -->
-        <div class="skill-category">
-            <h3><i class="fas fa-code"></i> <span data-i18n="cat_market_title">Programming</span></h3>
-            <ul class="skill-list" data-i18n="cat_market_list">
-                <li>Python (Automation, Data, AI)</li>
-                <li>JavaScript (Vanilla)</li>
-                <li>HTML / CSS</li>
-                <li>SQL</li>
-                <li>NoSQL: MongoDB</li>
-                <li>GitHub Actions (YAML / JSON)</li>
-            </ul>
+        <div class="bio-stats" style="justify-content: center; gap: 20px;">
+            <div class="stat-badge" style="background: rgba(79, 70, 229, 0.1); border-color: var(--primary); font-size: 1rem; padding: 10px 20px;">
+                <i class="fas fa-language" style="color: var(--primary);"></i> <span data-i18n="learn_spanish">Spanish Language</span>
+            </div>
+            <div class="stat-badge" style="background: rgba(79, 70, 229, 0.1); border-color: var(--primary); font-size: 1rem; padding: 10px 20px;">
+                <i class="fas fa-robot" style="color: var(--primary);"></i> <span>UiPath</span>
+            </div>
+            <div class="stat-badge" style="background: rgba(79, 70, 229, 0.1); border-color: var(--primary); font-size: 1rem; padding: 10px 20px;">
+                <i class="fas fa-laptop-code" style="color: var(--primary);"></i> <span>Claude Code</span>
+            </div>
         </div>
-
-        <!-- Content & Design -->
-        <div class="skill-category">
-            <h3><i class="fas fa-palette"></i> <span data-i18n="cat_market_title">Content & Design</span></h3>
-            <ul class="skill-list" data-i18n="cat_market_list">
-                <li>Canva</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>AI Image Generation: OpenAI GPT-Image</li>
-                <li>AI Video Generation: Google Veo</li>
-                <li>Creative AI Tools: Kie.ai</li>
-            </ul>
-        </div>
-
-        <!-- Cloud -->
-        <div class="skill-category">
-            <h3><i class="fas fa-cloud"></i> <span data-i18n="cat_market_title">Cloud & Infrastructure</span></h3>
-            <ul class="skill-list" data-i18n="cat_market_list">
-                <li>AWS: Lambda, S3, DynamoDB, IAM,...</li>
-                <li>GCP APIs: Gmail, Sheets, Drive,...</li>
-                <li>VPS Deployment: OVHCloud</li>
-            </ul>
-        </div>
-
-
-    </div>
-</section>
-
+    </section>
 
     <!-- Experience Section -->
-<section id="experience">
-    <div class="section-header">
-        <h2 data-i18n="exp_title">Career Timeline</h2>
-    </div>
-
-    <div class="timeline-container">
-
-        <!-- TARGETUP -->
-        <div class="job-card">
-            <span style="font-size:0.8rem; opacity:0.6;">Oct 2025 - Present</span>
-            <h3 class="job-title">Data & AI Automation PMO</h3>
-            <span class="job-company">TARGETUP Consulting : Consulting & Training Firm</span>
-            <ul style="padding-left: 20px; opacity: 0.8;" data-i18n="exp_targetup_list">
-                <li>Designed and deployed AI-powered automation workflows using Python, n8n, and low-code tools.</li>
-                <li>Automated operational processes including data extraction, lead generation, and content generations.</li>
-                <li>Led digital marketing automation initiatives (SEO, GEO, analytics-driven optimization).</li>
-                <li>Building Websites using Odoo website builder.</li>
-                <li>Coordinated cross-functional execution and managed a small team.</li>
-            </ul>
+    <section id="experience">
+        <div class="section-header">
+            <h2 data-i18n="exp_title">Career Timeline</h2>
         </div>
 
-        <!-- IFCAR SOLUTIONS -->
-        <div class="job-card">
-            <span style="font-size:0.8rem; opacity:0.6;">Dec 2024 - Oct 2025</span>
-            <h3 class="job-title">Data & Marketing Analyst / Automation Specialist</h3>
-            <span class="job-company">IFCAR SOLUTIONS : Recruitement agency</span>
-            <ul style="padding-left: 20px; opacity: 0.8;" data-i18n="exp_ifcar_list">
-                <li>Developed an AI-powered resume classifier to automate candidate screening.</li>
-                <li>Conducted data analysis (SQL, CSV, XLSX) and created dashboards to support decision-making.</li>
-                <li>Led market research and improved SEO performance for IFCARJOB and IFCAR Solutions platforms.</li>
-                <li>Sourced and recruited IT talent for client projects.</li>
-            </ul>
+        <div class="timeline-container">
+            <div class="job-card">
+                <span style="font-size:0.8rem; opacity:0.6;">Oct 2025 - Present</span>
+                <h3 class="job-title" data-i18n="exp_targetup_role">Data & AI Automation PMO</h3>
+                <span class="job-company">TARGETUP Consulting : Consulting & Training Firm</span>
+                <ul style="padding-left: 20px; opacity: 0.8;" data-i18n="exp_targetup_list">
+                    <li>Designed and deployed AI-powered automation workflows using Python & n8n.</li>
+                    <li>Automated data extraction and lead generation.</li>
+                    <li>Led digital marketing automation (SEO, Analytics).</li>
+                    <li>Built websites using Odoo.</li>
+                </ul>
+            </div>
+            <div class="job-card">
+                <span style="font-size:0.8rem; opacity:0.6;">Dec 2024 - Oct 2025</span>
+                <h3 class="job-title" data-i18n="exp_ifcar_role">Data & Marketing Analyst / Automation Specialist</h3>
+                <span class="job-company">IFCAR SOLUTIONS : Recruitement agency</span>
+                <ul style="padding-left: 20px; opacity: 0.8;" data-i18n="exp_ifcar_list">
+                    <li>Developed AI-powered resume classifier to automate screening.</li>
+                    <li>Conducted data analysis (SQL, Excel) and built dashboards.</li>
+                    <li>Led market research and SEO performance.</li>
+                </ul>
+            </div>
+            <div class="job-card">
+                <span style="font-size:0.8rem; opacity:0.6;">Oct 2024 - Nov 2024</span>
+                <h3 class="job-title" data-i18n="exp_sorec_role">Data Analyst</h3>
+                <span class="job-company">SOREC</span>
+                <ul style="padding-left: 20px; opacity: 0.8;" data-i18n="exp_sorec_list">
+                    <li>Analyzed large datasets and transformed raw data into insights.</li>
+                    <li>Built interactive dashboards.</li>
+                </ul>
+            </div>
+            <div class="job-card">
+                <span style="font-size:0.8rem; opacity:0.6;">Aug 2024 - Sep 2024</span>
+                <h3 class="job-title" data-i18n="exp_hcp_role">Census Enumerator</h3>
+                <span class="job-company">Haut Commissariat au Plan (HCP)</span>
+                <ul style="padding-left: 20px; opacity: 0.8;" data-i18n="exp_hcp_list">
+                    <li>Participated in national population census.</li>
+                    <li>Collected and verified structured data.</li>
+                </ul>
+            </div>
         </div>
-
-        <!-- SOREC -->
-        <div class="job-card">
-            <span style="font-size:0.8rem; opacity:0.6;">Oct 2024 - Nov 2024</span>
-            <h3 class="job-title">Data Analyst</h3>
-            <span class="job-company">SOREC</span>
-            <ul style="padding-left: 20px; opacity: 0.8;" data-i18n="exp_sorec_list">
-                <li>Analyzed large datasets and transformed raw data into actionable insights.</li>
-                <li>Built interactive dashboards to visualize trends and performance metrics.</li>
-            </ul>
-        </div>
-
-        <!-- HCP -->
-        <div class="job-card">
-            <span style="font-size:0.8rem; opacity:0.6;">Aug 2024 - Sep 2024</span>
-            <h3 class="job-title">Census Enumerator</h3>
-            <span class="job-company">Haut Commissariat au Plan (HCP)</span>
-            <ul style="padding-left: 20px; opacity: 0.8;">
-                <li>Participated in the national population and housing census.</li>
-                <li>Collected, verified, and reported structured data following official protocols.</li>
-            </ul>
-        </div>
-
-    </div>
-</section>
-
+    </section>
 
     <!-- Education Section -->
     <section id="education" style="background: rgba(79, 70, 229, 0.03);">
@@ -371,157 +307,191 @@
         </div>
     </section>
 
+    <!-- NEW SECTION: BIGGEST PROJECT / FEATURED CASE STUDY -->
+    <section id="featured-project">
+        <div class="section-header">
+            <h2 data-i18n="feat_title">Featured Case Study</h2>
+            <p data-i18n="feat_sub">My most complex and impactful automation architecture to date.</p>
+        </div>
+
+        <div class="featured-card">
+            <h3 style="font-size: 1.8rem; color: var(--text-color);" data-i18n="feat_proj_title">AI-Powered Public Tender Automation</h3>
+            <p class="feat-obj" data-i18n="feat_proj_obj">
+                I led the development of an AI-powered automation system for monitoring and qualifying public tenders (“appels d’offres”) for a consulting firm. The objective was to eliminate the manual work of searching, reading, and qualifying tenders from multiple procurement platforms while dramatically improving the speed and quality of opportunity detection.
+            </p>
+
+            <h4 style="color: var(--text-color); margin-top: 2rem; margin-bottom: 1rem; border-bottom: 2px solid var(--glass-border); padding-bottom: 10px;" data-i18n="feat_workflow_title">Workflow Overview & AI Pipeline</h4>
+            
+            <div class="feat-grid">
+                <div class="feat-step">
+                    <h4><i class="fas fa-spider"></i> <span data-i18n="feat_step1_title">1. Automated Scraping</span></h4>
+                    <p data-i18n="feat_step1_desc">Pipelines built in Python (BS4, Selenium) run automatically on GitHub Actions. New tenders are sent via webhooks to a VPS-hosted n8n instance.</p>
+                </div>
+                <div class="feat-step">
+                    <h4><i class="fas fa-filter"></i> <span data-i18n="feat_step2_title">2. Initial AI Filtering</span></h4>
+                    <p data-i18n="feat_step2_desc">The first AI agent analyzes descriptions and discards irrelevant tenders, keeping only those aligned with our specific consulting services.</p>
+                </div>
+                <div class="feat-step">
+                    <h4><i class="fas fa-star-half-alt"></i> <span data-i18n="feat_step3_title">3. AI Scoring System</span></h4>
+                    <p data-i18n="feat_step3_desc">Relevant tenders are evaluated by a second AI agent based on strategic relevance, technical fit, project value, and probability of success.</p>
+                </div>
+                <div class="feat-step">
+                    <h4><i class="fas fa-search-plus"></i> <span data-i18n="feat_step4_title">4. Deep Data Extraction</span></h4>
+                    <p data-i18n="feat_step4_desc">For scores >90%, a final AI extracts structured details: budget, deadlines, bid bonds, required documents, and client needs.</p>
+                </div>
+                <div class="feat-step">
+                    <h4><i class="fas fa-network-wired"></i> <span data-i18n="feat_step5_title">5. CRM Integration</span></h4>
+                    <p data-i18n="feat_step5_desc">Qualified, structured opportunities are automatically pushed into Odoo CRM for the sales team to manage as high-potential leads.</p>
+                </div>
+            </div>
+
+            <div class="feat-tech">
+                <span class="stat-badge"><i class="fab fa-python"></i> Python (BS4, Selenium)</span>
+                <span class="stat-badge"><i class="fab fa-github"></i> GitHub Actions</span>
+                <span class="stat-badge"><i class="fas fa-project-diagram"></i> n8n Webhooks</span>
+                <span class="stat-badge"><i class="fas fa-brain"></i> OpenAI & Deepseek API</span>
+                <span class="stat-badge"><i class="fas fa-server"></i> VPS (OVHCloud)</span>
+                <span class="stat-badge"><i class="fas fa-database"></i> Odoo CRM</span>
+            </div>
+
+            <div class="feat-impact">
+                <h4 data-i18n="feat_impact_title">Results & Impact</h4>
+                <p data-i18n="feat_impact_desc">This automation drastically reduced the time spent manually reviewing tenders and eliminated human error in opportunity qualification. The business team can now focus exclusively on high-value, pre-structured opportunities already analyzed by AI, creating a faster and highly scalable tender acquisition process.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
-<section id="projects">
-    <div class="section-header">
-        <h2 data-i18n="proj_title">Some of my solutions</h2>
-        <p data-i18n="proj_sub">Automation in action.</p>
-    </div>
+    <section id="projects" style="padding-top: 0;">
+        <div class="section-header">
+            <h2 data-i18n="proj_title">Some of my solutions</h2>
+            <p data-i18n="proj_sub">Automation in action.</p>
+        </div>
 
-    <!-- Social Media & Messaging AI Agents -->
-    <h3 class="project-category" data-i18n="cat_proj_social">Social Media & Messaging AI Agents</h3>
-    <div class="project-grid">
-        <div class="project-card">
-            <div class="project-top"><i class="fab fa-whatsapp"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_wa_title">WhatsApp AI Assistant</h3>
-                <p data-i18n="proj_wa_desc">AI customer support bot using n8n, OpenAI & Meta API.</p>
+        <h3 class="project-category" style="margin-bottom:1rem; color:var(--primary);" data-i18n="cat_proj_social">Social Media & Messaging AI Agents</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-top"><i class="fab fa-whatsapp"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_wa_title">WhatsApp AI Assistant</h3>
+                    <p data-i18n="proj_wa_desc">AI customer support bot using n8n, OpenAI & Meta API.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fab fa-instagram"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_insta_title">Instagram DM Bot</h3>
+                    <p data-i18n="proj_insta_desc">Automated DM replies and lead qualification using AI.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fab fa-facebook"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_fb_title">Facebook AI Agent</h3>
+                    <p data-i18n="proj_fb_desc">Automated Messages and Comments using AI.</p>
+                </div>
             </div>
         </div>
 
-        <div class="project-card">
-            <div class="project-top"><i class="fab fa-instagram"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_insta_title">Instagram DM Bot</h3>
-                <p data-i18n="proj_insta_desc">Automated DM replies and lead qualification using AI.</p>
+        <div style="height:60px;"></div>
+        <h3 class="project-category" style="margin-bottom:1rem; color:var(--primary);" data-i18n="cat_proj_content">Content Generation & Distribution</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-image"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_img_title">AI Image Generator</h3>
+                    <p data-i18n="proj_img_desc">Automated image creation using n8n and OpenAI-GPT image.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-video"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_video_title">AI Video Creator</h3>
+                    <p data-i18n="proj_video_desc">AI-powered video generation and editing using Google VEO.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-share-alt"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_post_title">Social Media Auto Posting</h3>
+                    <p data-i18n="proj_post_desc">Automated posting across LinkedIn, Instagram, Facebook, YouTube, TikTok & Reddit.</p>
+                </div>
             </div>
         </div>
 
-        <div class="project-card">
-            <div class="project-top"><i class="fab fa-facebook"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_fb_title">Facebook AI Agent</h3>
-                <p data-i18n="proj_fb_desc">Automated Messages and Comments using AI.</p>
+        <div style="height:60px;"></div>
+        <h3 class="project-category" style="margin-bottom:1rem; color:var(--primary);" data-i18n="cat_proj_hr">HR & Recruitment Automation</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-filter"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_cv_title">AI CV Screener</h3>
+                    <p data-i18n="proj_cv_desc">Gmail + Gemini API to rank and qualify candidates.</p>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <div style="height:60px;"></div>
-    <h3 class="project-category" data-i18n="cat_proj_content">Content Generation & Distribution</h3>
-    <div class="project-grid">
-        
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-image"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_img_title">AI Image Generator</h3>
-                <p data-i18n="proj_img_desc">Automated image creation using n8n and OpenAI-GPT image.</p>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-video"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_video_title">AI Video Creator</h3>
-                <p data-i18n="proj_video_desc">AI-powered video generation and editing using Google VEO.</p>
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-user-check"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_recruit_title">Recruitment Automation</h3>
+                    <p data-i18n="proj_recruit_desc">Resume parsing, scoring, and interview scheduling.</p>
+                </div>
             </div>
         </div>
 
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-share-alt"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_post_title">Social Media Auto Posting</h3>
-                <p data-i18n="proj_post_desc">Automated posting across LinkedIn, Instagram, Facebook, YouTube, TikTok & Reddit.</p>
+        <div style="height:60px;"></div>
+        <h3 class="project-category" style="margin-bottom:1rem; color:var(--primary);" data-i18n="cat_proj_data">Data, Dashboards & Market Intelligence</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-chart-pie"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_market_title">Market Intelligence Dashboard</h3>
+                    <p data-i18n="proj_market_desc">Real-time market insights and trends using Web scraping & Streamlit.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-briefcase"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_li_title">Linkedin Jobs Analysis</h3>
+                    <p data-i18n="proj_li_desc">Web scraping & job market analytics from linkedin Jobs.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-chart-line"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_ga_title">Google Analytics Dashboard</h3>
+                    <p data-i18n="proj_ga_desc">SEO, traffic performance and Predections dashboard via Google APIs.</p>
+                </div>
             </div>
         </div>
 
-    </div>
-
-    <!-- HR & Recruitment Automation -->
-    <div style="height:60px;"></div>
-    <h3 class="project-category" data-i18n="cat_proj_hr">HR & Recruitment Automation</h3>
-    
-    <div class="project-grid">
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-filter"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_cv_title">AI CV Screener</h3>
-                <p data-i18n="proj_cv_desc">Gmail + Gemini API to rank and qualify candidates.</p>
+        <div style="height:60px;"></div>
+        <h3 class="project-category" style="margin-bottom:1rem; color:var(--primary);" data-i18n="cat_proj_sales">Sales, CRM & Business Automation</h3>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-database"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_scrap_title">Lead Scraper Pipeline</h3>
+                    <p data-i18n="proj_scrap_desc">Apollo / LeadRocks → Odoo CRM automated workflow.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-globe"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_maps_title">Google Maps Lead Generator</h3>
+                    <p data-i18n="proj_maps_desc">Scraping, enrichment & outreach automation using Cold mailing</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-top"><i class="fas fa-file-invoice"></i></div>
+                <div class="project-content">
+                    <h3 data-i18n="proj_inv_title">Invoice Automation System</h3>
+                    <p data-i18n="proj_inv_desc">Automated invoice processing and internal routing.</p>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-user-check"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_recruit_title">Recruitment Automation</h3>
-                <p data-i18n="proj_recruit_desc">Resume parsing, scoring, and interview scheduling.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Data, Dashboards & Market Intelligence -->
-    <div style="height:60px;"></div>
-    <h3 class="project-category" data-i18n="cat_proj_data">Data, Dashboards & Market Intelligence</h3>
-    
-    <div class="project-grid">
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-chart-pie"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_market_title">Market Intelligence Dashboard</h3>
-                <p data-i18n="proj_market_desc">Real-time market insights and trends using Web scraping & Streamlit.</p>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-briefcase"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_li_title">Linkedin Jobs Analysis</h3>
-                <p data-i18n="proj_li_desc">Web scraping & job market analytics from linkedin Jobs.</p>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-chart-line"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_ga_title">Google Analytics Dashboard</h3>
-                <p data-i18n="proj_ga_desc">SEO, traffic performance and Predections dashboard via Google APIs.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Sales, CRM & Business Automation -->
-    <div style="height:60px;"></div>
-    <h3 class="project-category" data-i18n="cat_proj_sales">Sales, CRM & Business Automation</h3>
-    
-    <div class="project-grid">
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-database"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_scrap_title">Lead Scraper Pipeline</h3>
-                <p data-i18n="proj_scrap_desc">Apollo / LeadRocks → Odoo CRM automated workflow.</p>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-globe"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_maps_title">Google Maps Lead Generator</h3>
-                <p data-i18n="proj_maps_desc">Scraping, enrichment & outreach automation using Cold mailing</p>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="project-top"><i class="fas fa-file-invoice"></i></div>
-            <div class="project-content">
-                <h3 data-i18n="proj_inv_title">Invoice Automation System</h3>
-                <p data-i18n="proj_inv_desc">Automated invoice processing and internal routing.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-        <!-- GLOBAL RELOCATION SECTION (Restored) -->
+    <!-- GLOBAL RELOCATION SECTION -->
     <div class="global-section">
         <div class="global-content">
             <h2 data-i18n="map_title">Limitless Deployment</h2>
@@ -568,5 +538,6 @@
         <p style="font-size:0.8rem; opacity:0.5;">&copy; 2026 Anas Lachhab.</p>
     </footer>
 
-    <script src="scripts.js"></script></body>
+    <script src="scripts.js"></script>
+</body>
 </html>
