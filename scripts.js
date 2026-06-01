@@ -62,7 +62,7 @@ const i18n = {
         feat_step4_desc: "For scores >90%, a final AI extracts structured details: budget, deadlines, bid bonds, required documents, and client needs.",
         feat_step5_title: "CRM Integration",
         feat_step5_desc: "Qualified, structured opportunities are automatically pushed into Odoo CRM for the sales team to manage as high-potential leads.",
-        feat_impact_title: "Results & Impact",
+        feat_impact_title: "<i class='fas fa-chart-line'></i> Results & Impact",
         feat_impact_desc: "This automation drastically reduced the time spent manually reviewing tenders and eliminated human error in opportunity qualification. The business team can now focus exclusively on high-value, pre-structured opportunities already analyzed by AI, creating a faster and highly scalable tender acquisition process.",
 
         proj_title: "Some of my solutions",
@@ -166,7 +166,7 @@ const i18n = {
         feat_step4_desc: "Pour les scores >90%, une IA finale extrait des données structurées : budget, délais, cautions, documents requis et besoins clients.",
         feat_step5_title: "Intégration CRM",
         feat_step5_desc: "Les opportunités qualifiées sont poussées automatiquement dans Odoo CRM en tant que leads à haut potentiel pour l'équipe commerciale.",
-        feat_impact_title: "Résultats & Impact",
+        feat_impact_title: "<i class='fas fa-chart-line'></i> Résultats & Impact",
         feat_impact_desc: "Cette automatisation a considérablement réduit le temps d'examen manuel et éliminé l'erreur humaine. L'équipe commerciale se concentre désormais uniquement sur des opportunités pré-structurées et qualifiées par l'IA, créant un processus d'acquisition évolutif et ultra-rapide.",
 
         proj_title: "Quelques solutions",
@@ -270,7 +270,7 @@ const i18n = {
         feat_step4_desc: "للعروض الحاصلة على تقييم >90%، يقوم الذكاء الاصطناعي باستخراج تفاصيل دقيقة: الميزانية، المواعيد النهائية، الضمانات، والمستندات المطلوبة.",
         feat_step5_title: "تكامل نظام CRM",
         feat_step5_desc: "يتم دفع الفرص المؤهلة والمهيكلة تلقائياً إلى نظام Odoo CRM ليديرها فريق المبيعات كعملاء محتملين ذوي قيمة عالية.",
-        feat_impact_title: "النتائج والتأثير",
+        feat_impact_title: "<i class='fas fa-chart-line'></i> النتائج والتأثير",
         feat_impact_desc: "قلصت هذه الأتمتة الوقت المستغرق في المراجعة اليدوية للعروض بشكل كبير وقضت على الأخطاء البشرية. يمكن لفريق المبيعات الآن التركيز حصرياً على الفرص عالية القيمة والمحللة مسبقاً بواسطة الذكاء الاصطناعي، مما خلق عملية اكتساب سريعة وقابلة للتوسع.",
 
         proj_title: "مشاريع مختارة",
